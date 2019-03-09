@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.study.gupao.factorymethod.CatAnimalFactory</OriginalElement>
+  <nodes>
+    <node x="0.0" y="307.0">com.study.gupao.CatAnimal</node>
+    <node x="177.0" y="104.0">com.study.gupao.factorymethod.DogAnimalFactory</node>
+    <node x="88.5" y="0.0">com.study.gupao.factorymethod.IAnimalFactory</node>
+    <node x="70.5" y="203.0">com.study.gupao.IAnimal</node>
+    <node x="307.0" y="203.0">com.study.gupao.factorymethod.TestFactoryMethod</node>
+    <node x="0.0" y="104.0">com.study.gupao.factorymethod.CatAnimalFactory</node>
+    <node x="141.0" y="307.0">com.study.gupao.DogAnimal</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.study.gupao.DogAnimal" target="com.study.gupao.IAnimal">
+      <point x="0.0" y="-27.0" />
+      <point x="201.5" y="282.0" />
+      <point x="161.25" y="282.0" />
+      <point x="30.25" y="27.0" />
+    </edge>
+    <edge source="com.study.gupao.factorymethod.CatAnimalFactory" target="com.study.gupao.factorymethod.IAnimalFactory">
+      <point x="0.0" y="-27.0" />
+      <point x="78.5" y="79.0" />
+      <point x="127.75" y="79.0" />
+      <point x="-39.25" y="27.0" />
+    </edge>
+    <edge source="com.study.gupao.CatAnimal" target="com.study.gupao.IAnimal">
+      <point x="0.0" y="-27.0" />
+      <point x="60.5" y="282.0" />
+      <point x="100.75" y="282.0" />
+      <point x="-30.25" y="27.0" />
+    </edge>
+    <edge source="com.study.gupao.factorymethod.DogAnimalFactory" target="com.study.gupao.factorymethod.IAnimalFactory">
+      <point x="0.0" y="-27.0" />
+      <point x="255.5" y="79.0" />
+      <point x="206.25" y="79.0" />
+      <point x="39.25" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="75.0" y="194.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
